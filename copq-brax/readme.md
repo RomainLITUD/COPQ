@@ -40,7 +40,7 @@ Run commands from this directory:
 cd copq-brax
 ```
 
-Hard-safety locomotion task:
+Hard-safety locomotion task examples:
 
 ```bash
 python saferl.py \
@@ -53,7 +53,7 @@ python saferl.py \
   --save-file humanoid_lrl_cop
 ```
 
-Safe-velocity constrained task:
+Safe-velocity constrained task examples:
 
 ```bash
 python saferl.py \

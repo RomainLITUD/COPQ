@@ -38,7 +38,11 @@ irrelevant baseline code.
 ## Notes
 
 - GPU training is supported when the correct JAX or PyTorch CUDA build is
-  installed, but CPU execution is sufficient for code inspection and basic
-  command checks.
+  installed, 
+
+- `copq-brax` requires CUDA version >= 13.0, `jax[cuda13]`.
+
+- `copq-omni` requires `python==3.11, cuda>=12.3`.
+
 - The two implementations are independent and should be installed/run in
   separate environments when possible.
